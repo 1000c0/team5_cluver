@@ -1,5 +1,6 @@
-export default function Home() {
-  return (
-    <div>사건 현장</div>
-  );
+import GameShell from "@/components/GameShell";
+
+export default function CrimeScenePage() {
+  return <GameShell initialScreen="fieldOne" />;
 }
+

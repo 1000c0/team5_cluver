@@ -1,5 +1,10 @@
-export default function Home() {
+﻿import { Suspense } from "react";
+import ResultScreen from "@/components/result/ResultScreen";
+
+export default function ResultPage() {
   return (
-    <div>결과 확인</div>
+    <Suspense fallback={<main className="result-screen" />}>
+      <ResultScreen />
+    </Suspense>
   );
 }

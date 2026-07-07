@@ -1,5 +1,6 @@
-export default function Home() {
-  return (
-    <div>사건 현장</div>
-  );
+import type { PropsWithChildren } from "react";
+
+export default function EvidenceInventory({ children }: PropsWithChildren) {
+  return <>{children}</>;
 }
+

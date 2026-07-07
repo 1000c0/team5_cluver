@@ -125,7 +125,68 @@
 | 최종 지목 | 범인을 선택한다. | 플레이어의 추론을 정리하고 진상 도달을 완성한다. | 결과 화면 | 사용자 결정 반영 |
 | 진상 도달형 진행 | 틀리거나 헤매도 최종적으로 진상에 도달할 수 있게 한다. | 플레이어가 막혀서 끝나는 실패 경험을 줄인다. | 전체 흐름 | 사용자 결정 반영 |
 
-## 7. 비주얼 디자인 가이드
+## 7. 제작 에셋 레퍼런스
+
+아래 에셋은 현재 제작된 조선시대 테마 이미지 기준이다. 이름, 관계, 범인 여부, 알리바이 같은 서사 정보는 아직 이 문서에서 확정하지 않는다.
+
+### 장면
+
+| 장면 | 이미지 | 용도 |
+|---|---|---|
+| 후문 마당 | ![후문 마당](assets/references/scenes/scene-01-back-gate-courtyard.png) | 외부 조사 장소, 동선과 흔적 확인 |
+| 춘월의 방 | ![춘월의 방](assets/references/scenes/scene-02-chunwol-room.png) | 인물의 사적 공간 조사 |
+| 돌쇠의 거처 | ![돌쇠의 거처](assets/references/scenes/scene-03-dolsoe-quarters.png) | 하인 거처 또는 숨겨진 물건 조사 |
+| 점순 관련 문간 | ![점순 관련 문간](assets/references/scenes/scene-04-gatehouse-jeomsun-door.png) | 문 앞 흔적, 발자국, 출입 단서 조사 |
+| 무덕의 하인방 | ![무덕의 하인방](assets/references/scenes/scene-05-mudeok-servant-room.png) | 하인방 조사, 문서와 생활 흔적 확인 |
+| 유문석 사랑방 | ![유문석 사랑방](assets/references/scenes/scene-06-yoomunseok-sarangbang.png) | 양반/주요 인물의 방 조사 |
+| 빈 취조실 | ![빈 취조실](assets/references/scenes/scene-07-interrogation-room-empty.png) | 용의자 신문 전 기본 화면 |
+| 용의자 취조실 | ![용의자 취조실](assets/references/scenes/scene-08-interrogation-room-suspect.png) | 용의자 신문 화면의 배경 |
+| 춘월 취조 | ![춘월 취조](assets/references/scenes/scene-09-interrogation-chunwol.png) | 춘월 신문 장면 |
+| 춘월 소매 확인 | ![춘월 소매 확인](assets/references/scenes/scene-10-interrogation-chunwol-sleeve.png) | 춘월에게 소매 확인 질문을 했을 때의 장면 |
+| 돌쇠 취조 | ![돌쇠 취조](assets/references/scenes/scene-11-interrogation-dolsoe.png) | 돌쇠 신문 장면 |
+| 돌쇠 소매 확인 | ![돌쇠 소매 확인](assets/references/scenes/scene-12-interrogation-dolsoe-sleeve.png) | 돌쇠에게 소매 확인 질문을 했을 때의 장면 |
+| 무덕 취조 | ![무덕 취조](assets/references/scenes/scene-13-interrogation-mudeok.png) | 무덕 신문 장면 |
+| 무덕 소매 확인 | ![무덕 소매 확인](assets/references/scenes/scene-14-interrogation-mudeok-sleeve.png) | 무덕에게 소매 확인 질문을 했을 때의 장면 |
+| 유문석 취조 | ![유문석 취조](assets/references/scenes/scene-15-interrogation-yoomunseok.png) | 유문석 신문 장면 |
+| 유문석 소매 확인 | ![유문석 소매 확인](assets/references/scenes/scene-16-interrogation-yoomunseok-sleeve.png) | 유문석에게 소매 확인 질문을 했을 때의 장면 |
+| 점순 호패 문간 | ![점순 호패 문간](assets/references/scenes/scene-17-gatehouse-jeomsun-hopae.png) | 문간과 호패 관련 단서 확인 장면 |
+| 외부 전경 | ![외부 전경](assets/references/scenes/scene-18-castle-exterior.png) | 조선시대 테마의 외부 분위기 참고 장면 |
+
+### 등장인물
+
+| 인물 | 기본 이미지 | 소매 확인 이미지 | 문서상 상태 |
+|---|---|---|---|
+| 춘월 | ![춘월 기본](assets/references/characters/chunwol-seated.png) | ![춘월 소매 확인](assets/references/characters/chunwol-sleeve-check.png) | 용의자 4명 중 1명. 세부 관계와 알리바이는 추후 사용자 확인 필요. |
+| 돌쇠 | ![돌쇠 기본](assets/references/characters/dolsoe-seated.png) | ![돌쇠 소매 확인](assets/references/characters/dolsoe-sleeve-check.png) | 용의자 4명 중 1명. `긁힌 팔 흔적` 단서는 돌쇠의 소매 아래에서만 수집되는 방향. |
+| 무덕 | ![무덕 기본](assets/references/characters/mudeok-seated.png) | ![무덕 소매 확인](assets/references/characters/mudeok-sleeve-check.png) | 용의자 4명 중 1명. 세부 관계와 알리바이는 추후 사용자 확인 필요. |
+| 유문석 | ![유문석 기본](assets/references/characters/yoomunseok-seated.png) | ![유문석 소매 확인](assets/references/characters/yoomunseok-sleeve-check.png) | 용의자 4명 중 1명. 세부 관계와 알리바이는 추후 사용자 확인 필요. |
+
+### 증거품목
+
+| 증거 | 이미지 | 파일명 기준 용도 |
+|---|---|---|
+| 도끼/칼 | ![도끼/칼](assets/references/evidence/evidence-axe-knife.png) | 흉기 후보 |
+| 피 묻은 붕대 | ![피 묻은 붕대](assets/references/evidence/evidence-bloodied-bandage.png) | 부상 또는 은폐 흔적 |
+| 끊어진 호패 끈 | ![끊어진 호패 끈](assets/references/evidence/evidence-cut-hopae-cord.png) | 신분표식 훼손 단서 |
+| 빈 호패 주머니 | ![빈 호패 주머니](assets/references/evidence/evidence-empty-hopae-holder.png) | 사라진 호패 관련 단서 |
+| 도주 보따리 | ![도주 보따리](assets/references/evidence/evidence-escape-bundle.png) | 도주 준비 정황 |
+| 손톱 시료 | ![손톱 시료](assets/references/evidence/evidence-fingernail-sample.png) | 몸싸움 또는 접촉 흔적 |
+| 먹가루 | ![먹가루](assets/references/evidence/evidence-ink-powder.png) | 문서/필적 관련 단서 |
+| 혼서지 | ![혼서지](assets/references/evidence/evidence-marriage-letter.png) | 인물 관계 또는 약속 단서 |
+| 맞물리는 종이 조각 | ![맞물리는 종이 조각](assets/references/evidence/evidence-matching-paper-scraps.png) | 찢어진 문서 복원 단서 |
+| 무덕의 일기 | ![무덕의 일기](assets/references/evidence/evidence-mudeok-diary.png) | 인물의 속마음 또는 일정 단서 |
+| 노리개 | ![노리개](assets/references/evidence/evidence-norigae-transparent.png) | 소유자 추적 단서 |
+| 지필도 | ![지필도](assets/references/evidence/evidence-paper-knife.png) | 문서 절단 또는 흉기 후보 |
+| 초상화 조각 | ![초상화 조각](assets/references/evidence/evidence-portrait-transparent.png) | 인물 식별 또는 관계 단서 |
+| 거친 글씨 연습지 | ![거친 글씨 연습지](assets/references/evidence/evidence-rough-writing-practice.png) | 필적 비교 단서 |
+| 긁힌 팔 흔적 | ![긁힌 팔 흔적](assets/references/evidence/evidence-scratched-arm.png) | 소매 확인으로 발견하는 신체 단서 |
+| 하인 장부 | ![하인 장부](assets/references/evidence/evidence-servant-ledger.png) | 출입/업무 기록 단서 |
+| 작은 발자국 | ![작은 발자국](assets/references/evidence/evidence-small-footprints.png) | 현장 이동 흔적 |
+| 찢어진 편지 | ![찢어진 편지](assets/references/evidence/evidence-torn-letter-transparent.png) | 동기 또는 관계 단서 |
+| 나무 상자 | ![나무 상자](assets/references/evidence/evidence-wooden-box-transparent.png) | 보관함 또는 숨겨진 물건 |
+| 목패 | ![목패](assets/references/evidence/evidence-wooden-tag-transparent.png) | 신분/소속 확인 단서 |
+
+## 8. 비주얼 디자인 가이드
 
 - **분위기:** 어둡고 습한 밤, 등불과 달빛, 붉은 혈흔, 오래된 종이와 목재 질감.
 - **색상:** 검정, 짙은 남색, 먹색, 오래된 갈색, 촛불의 주황, 피와 인장의 붉은색을 중심으로 사용한다.
@@ -134,7 +195,7 @@
 - **폰트 방향:** 제목은 명조 또는 궁서 계열처럼 장식적이고 긴장감 있는 서체, 메뉴는 이미지 1처럼 픽셀풍 영문을 사용할 수 있다.
 - **단서 표시:** 노골적인 화살표보다 빛 번짐, 붉은 인장, 작은 반짝임, 증거 번호 표식을 사용한다.
 
-## 8. 확정된 결정
+## 9. 확정된 결정
 
 - 세 개의 꿈은 플레이어의 환상이다.
 - 주인공은 꿈을 꾸는 인물이지만, 꿈 안에서는 특정 수사 역할을 맡는다.
@@ -147,7 +208,7 @@
 - 실패 조건으로 막히지 않고, 모든 플레이어가 결국 진상에 도달해 범인을 지목한다.
 - 앞으로 구현은 Next.js를 기준으로 한다.
 
-## 9. 아직 정해야 할 것
+## 10. 아직 정해야 할 것
 
 - 조선시대 테마의 4명 용의자 이름, 관계, 알리바이, 숨기는 정보를 확인해야 한다.
 - 플레이어가 꿈 안에서 맡는 역할의 이름과 신분을 정해야 한다.
@@ -155,7 +216,7 @@
 - 범인을 지목하기 전까지 어떤 단서를 반드시 발견하게 할지 정해야 한다.
 - 플레이어가 틀린 범인을 지목했을 때 힌트를 주고 다시 추리하게 할지, 바로 진상 흐름으로 유도할지 정해야 한다.
 
-## 10. 보류된 확장 아이디어
+## 11. 보류된 확장 아이디어
 
 아래 내용은 현재 조선시대 테마 제작 범위 밖에 있는 확장 후보이다.
 
@@ -164,10 +225,11 @@
 - 이후 여러 사건을 선택하는 구조가 필요해지면, 지도 화면을 사건 선택 허브로 확장한다.
 - 여러 사건을 만들 경우 같은 물건이 꿈마다 다른 형태로 반복 등장하게 할 수 있다. 예: 노리개, 목패, 상자, 붉은 인장.
 
-## 11. 변경 기록
+## 12. 변경 기록
 
 - 2026-07-06: 첨부 이미지 8장을 기반으로 `삼운몽: 세 개의 꿈` 디자인 문서 초안 작성.
 - 2026-07-06: 사용자 결정 반영. 현재 제작 범위를 조선시대 테마로 한정하고, 플레이어 환상, 4명 용의자, 혼합 플레이 방식, 제한시간 없음, 진상 도달형 구조를 확정 사항으로 정리.
 - 2026-07-06: 사용자 결정 반영. 앞으로 구현 기술을 Next.js로 정리.
 - 2026-07-07: 레퍼런스 이미지 8장을 `assets/references/`에 추가하고, 소스 자료 표에 마크다운 이미지 링크를 연결.
 - 2026-07-07: 이미지 8 지도 레퍼런스를 최신 조선 마을 지도 버전으로 교체.
+- 2026-07-07: 제작된 장면, 등장인물, 증거품목 이미지를 `assets/references/` 하위 폴더에 추가하고 문서에 연결.

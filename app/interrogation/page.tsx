@@ -1,5 +1,5 @@
-export default function Home() {
-  return (
-    <div>취조실</div>
-  );
+﻿import GameShell from "@/components/GameShell";
+
+export default function InterrogationPage() {
+  return <GameShell initialScreen="interrogationScreen" />;
 }

@@ -1,5 +1,5 @@
-export default function Home() {
-  return (
-    <div>tutorial</div>
-  );
+﻿import GameShell from "@/components/GameShell";
+
+export default function TutorialPage() {
+  return <GameShell initialScreen="tutorialScreen" />;
 }

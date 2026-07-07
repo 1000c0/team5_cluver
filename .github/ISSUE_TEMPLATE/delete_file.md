@@ -1,11 +1,11 @@
 ---
 
-name: 🗑️ File Delete
-about: 불필요한 파일이나 폴더를 삭제하는 작업
+name: 파일 삭제
+about: 불필요한 파일이나 폴더를 삭제합니다.
 title: "[DELETE] "
-labels: ["cleanup"]
-assignees: []
--------------
+labels: cleanup
+assignees: ""
+---
 
 ## 삭제 대상
 
@@ -28,6 +28,6 @@ assignees: []
 * [ ] 문서 수정 필요
 * [ ] 기타:
 
-## 📎 참고 사항
+## 참고 사항
 
-<!-- 관련 PR, Issue, 문서 등이 있다면 작성해주세요. -->
+관련 PR, Issue, 문서 등이 있다면 작성해주세요.
